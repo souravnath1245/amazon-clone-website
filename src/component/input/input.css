@@ -1,0 +1,24 @@
+.inputDiv {
+  background-color: rgb(43, 41, 41);
+  padding: 15px;
+  text-align: center;
+}
+.inputDiv .input {
+  width: 75%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon {
+  color: white;
+  font-size: 25px;
+  padding: 0px 10px;
+}
+.badge{
+    background-color: saddlebrown;
+    color:white;
+    padding: 3px;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+}

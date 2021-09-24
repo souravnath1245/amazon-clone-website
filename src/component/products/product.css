@@ -1,0 +1,18 @@
+.productSection {
+  width: 1200px;
+  float:right;
+  padding: 15px;
+}
+.strongStyle{
+    font-size: 20px;
+    color: blue;
+}
+.image {
+  height: 130px;
+}
+.button{
+    width: 200px;
+}
+.productDiv{
+    border-bottom: 2px solid gray;
+}

@@ -1,10 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import { useState } from 'react';
+// import './App.css';
+import Header from './component/heander/Header';
+import Main from './component/main/Main';
+
+// import Self from './component/self';
 
 function App() {
+  // const [selfData, setSelfData] = useState([])
+  // fetch('./self.json').then(res => res.json()).then(data => setSelfData(data))
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App someStyle">
+      <Header />
+      <Main />
+      
+
+
+    {/* //   {selfData.map(data=> <Self key={data._id}  data={data}/>)} */}
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +31,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
